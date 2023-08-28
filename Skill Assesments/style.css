@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+  #heroImgWrapper,#threeRowWrapper,#menuWrapper,.slidesContainer{
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .slidesContainer{
+    background-color: gold;
+    background-image: url("img/Image\ 5.png");
+    opacity: 0.7;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  
+  .siteLogo{
+    width: 120px;
+  }
+  
+  .slide{
+    background: yellow;
+  }
+  
+  .border{
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .flex{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .flex > p{
+    margin-top: 15px;
+  }
+  
+  .hide{
+    display: none;
+  }
+  
+  .defaultButton{
+    background: black;
+  }
+  
+  .hideOutline{
+    outline: white solid;
+  }
+  
+  
+  .flexSA{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  div.border.flexSA > button {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    margin-right: 8px;
+  }
+  
+  #menuWrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  ul{
+    display: flex;
+  }
+  
+  li{
+    list-style: none;
+    font-weight: 600;
+    padding-left: 12px;
+  }
+  
+  #threeRowWrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .topMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  #row{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .box{
+    background: black;
+    color: white;
+    padding-top: 200px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+
+  div.box > p{
+    margin-left: 15px;
+  }
+  
+  .boxOne,.boxTwo{
+    padding-right: 15px;
+  }
+
+  button.yellow{
+    margin-top: 15px;
+  }
+  
+  .yellow{
+    background: yellow;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  #heroImgWrapper{
+    position: relative;
+    background-image: url("img/steel.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    background-position: center;
+    height: 100vh;
+  }
+  
+  .hero-txt{
+    position: absolute;
+    color: #cccccc;
+    font-size: xx-large;
+    bottom: 100px;
+  }
